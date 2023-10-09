@@ -51,12 +51,17 @@ div.container-fluid {
     /* height of bar */
     height: 3px;
     width: 100%;
-    background: red;
     border-radius: 1px;
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
     transition: .25s ease-in-out;
+}
+
+.top-bar,
+.middle-bar, 
+.bottom-bar {
+    background-color: red;
 }
 
 .middle-bar {
@@ -85,16 +90,19 @@ div.container-fluid {
 .navbar-toggler.collapsed .top-bar {
     margin-top: -20px;
     transform: rotate(0deg);
+    background-color: blue;
 }
 
 .navbar-toggler.collapsed .middle-bar {
     opacity: 1;
     filter: alpha(opacity=100);
+    background-color: blue;
 }
 
 .navbar-toggler.collapsed .bottom-bar {
     margin-top: 20px;
     transform: rotate(0deg);
+    background-color: blue;
 }
 
 .col-4 {
@@ -105,4 +113,8 @@ div.container-fluid {
 .row {
     padding: 0;
     margin: 1%;
+}
+
+.vs {
+    font-size: 5rem;
 }
