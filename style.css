@@ -15,7 +15,7 @@ div.container-fluid {
 
 /* font end */
 
-
+/* navbar start */
 .navbar {
     /* background-image: linear-gradient(to right, red,blue); */
     background-color: black;
@@ -104,6 +104,7 @@ div.container-fluid {
     transform: rotate(0deg);
     background-color: blue;
 }
+/* nav end */
 
 .col-4 {
     padding: 0;
@@ -116,5 +117,15 @@ div.container-fluid {
 }
 
 .vs {
+    font-size: 5rem;
+}
+
+.list {
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.5rem;
+}
+
+.title {
     font-size: 5rem;
 }
