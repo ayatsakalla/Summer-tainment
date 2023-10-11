@@ -106,26 +106,18 @@ div.container-fluid {
 }
 /* nav end */
 
-.col-4 {
-    padding: 0;
-    margin: 0;
-}
-
 .row {
     padding: 0;
     margin: 1%;
 }
 
-.vs {
-    font-size: 5rem;
-}
 
 .list {
     height: fit-content;
     width: fit-content;
-    font-size: 1.5rem;
 }
 
-.title {
-    font-size: 5rem;
+
+.highlights {
+    background-color: blue;
 }
