@@ -115,6 +115,7 @@ div.container-fluid {
 .list {
     height: fit-content;
     width: fit-content;
+    font-size: 2rem;
 }
 
 
